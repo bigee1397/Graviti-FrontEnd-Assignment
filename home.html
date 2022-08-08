@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />                    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./components/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="/css/index.css" media="screen">
+    <script class="u-script" type="text/javascript" src="js/jquery.js"  defer=""></script>
+    <script class="u-script" type="text/javascript" src="js/nicepage.js"  defer=""></script>
+    <meta name="generator" content="Nicepage 4.15.11, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/GravitiLogo1.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Home">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-9c69"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="/home.html" class="u-image u-logo u-image-1" data-image-width="160" data-image-height="69">
+          <img src="/images/Graviti Logo 1.png" class="u-logo-image u-logo-image-1">
+        </a>
+      </div></header>
+    <section class="u-clearfix u-custom-color-1 u-section-1" style="height: 100vh;" id="sec-4009">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-custom-font u-font-source-sans-pro u-text u-text-custom-color-2 u-text-default u-text-1">Let's calculate <span style="font-weight: 700;">distance&nbsp;<span style="font-weight: 400;"> from Google Maps</span>
+          </span>
+        </h4>
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+
+                    <!-- origin and destination code here -->
+                    <div class="row">
+                        <div class="col-6" style="margin-left: 50px;">
+                          <h5 style="font-size: 19px;">Origin</h5>
+                            <div class="search">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" class="form-control" id="origin" placeholder=""/>
+                            </div>
+                            <h5 style="margin-top: 50px; font-size: 19px;">Destination</h5>
+                            <div class="search" style="margin-top: 0px;">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" class="form-control" id="destination" placeholder=""/>
+                            </div>                      
+                        </div>
+                        
+                        <div class="col-4">
+                            <div class="calbtn" style="margin-left:20px; margin-top: 100px;">
+                              <button class="calculate">Calculate</button>
+                            </div>
+                        </div>
+                        </div>
+                    
+                    <div class="row-2" style="margin-top: 50px; margin-left: 50px; margin-right: 50px; border: solid 2px rgba(220, 220, 220, 1); border-radius: 5px;">
+                      <!-- <div class="row-1 align-items-center" style="height: 45px; font-size: 25px;background-color: white; padding-left: 25px; padding-right: 25px;">Distance:   1427 Kms</div> -->
+
+                      <div class="row-1 align-items-center" style="height: 55px; background-color: white; display: flex;">
+                        <div class="ml-4 mt-2 d-flex" style="font:'Source Sans Pro', sans-serif;">
+                          Distance
+                        </div>
+                      </div>
+
+                      <div class="row-2 align-items-center" style="height: 55px; ">
+                        <div class="ml-4 mt-4" id="ouput">
+                          The distance between <strong>Mumbai</strong>   and <strong>Delhi</strong> is <strong>1,427</strong><strong> kms</strong></strong>.
+                        </div>
+                      </div>
+                        
+                    </div>
+
+
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <div class="u-grey-light-2 u-map u-map-1">
+                    <div class="embed-responsiv">
+                      <div id="googleMap">
+                        
+                        <!-- Map Code here -->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcDCW2Jh6hfCPK6fiTPZp1o8U-8R9tZZU&callback=myMap&libraries=places"></script>
+  </body>
+
+<script>
+  function initialize() {
+  var input = document.getElementById('origin');
+  var input1 = document.getElementById('destination');
+  new google.maps.places.Autocomplete(input);
+  new google.maps.places.Autocomplete(input1);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+</html>
